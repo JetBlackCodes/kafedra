@@ -6,12 +6,12 @@ class DisciplinesBlock extends Component {
   render() {
     return (
       <Block isLight>
-        <HeaderText>Изучаемые дисциплины</HeaderText>
+        <HeaderText isLight>Изучаемые дисциплины</HeaderText>
         <ul style={{ "list-style-type": "none" }}>
           {DISCIPLINES.map(el => {
             return (
               <li>
-                <Text>{el}</Text>
+                <Text isLight>{el}</Text>
               </li>
             );
           })}

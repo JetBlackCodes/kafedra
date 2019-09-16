@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import TechnologiesBlock from "./components/TechnologiesBlock";
 import DisciplinesBlock from "./components/DisciplinesBlock";
 import LectorsBlock from "./components/LectorsBlock";
+import Contacts from "./components/Contacts";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <DisciplinesBlock />
       <TechnologiesBlock />
       <LectorsBlock />
+      <Contacts />  
     </>
   );
 }
